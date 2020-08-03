@@ -1,1 +1,39 @@
 theme: jekyll-theme-merlot
+'''yml
+gems:
+  -jekyll-rss-feed
+'''
+plugins:
+  -audioinfo
+module Jekyll
+  class AudioDurationBlock < Liquid: :Block
+  
+    def initialize(tag_name, markup, tokens)
+      super
+    end
+    
+    def render(context)
+      AudioInfo.open(super) do |info|
+        secs = info.length
+        "%:%02d" % [secs / 60, secs % 60]
+      end
+    end
+  end
+end
+
+Liquid::Template.register_tag('audioduration', Jekyll::AudioDurationBlock)
+
+module Jekyll
+  class FileSizeBlock < Liquid::Block
+  
+    def initialize(tag_name, markup, tokens)
+      super
+    end
+    
+    def render(context)
+      "#{File.size super}"
+    end
+  end
+end
+
+Liquid::Template.register_tag('filesize', Jeckyll::FileSizeBlock)
