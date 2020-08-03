@@ -1,0 +1,61 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:media="http://www.rssboard.org/media-rss" version="2.0">
+<channel>
+<title>Your Daily Dose of Danny</title>
+<link>https://spanglish3166.github.io/Your-Daily-Dose_of-Danny/</link>
+<language>en-us</language>
+<atom:link href="https://PODCAST URL.com/feed.xml" rel="self" type="application/rss+xml"/>
+<copyright>Danny O'Keefe</copyright>
+<itunes:subtitle>Your Daily Dose of Danny</itunes:subtitle>
+<itunes:author>Danny O'Keefe</itunes:author>
+<itunes:summary>
+Ever have an existential crisis? Well, I have them continuously! But, hey, they do have perks. Coming out of each unnecessarily existential panic attack, I bring back some understanding I never knew I needed. And you, my friend, are lucky enough to sit in on them with me. Admittedly, I also get to sit in with you to hear what comes out of my mouth, because half the time it's coming from my ass and my ears aren't positioned well to listen. So you bring the popcorn, and I'll grab a $2 bottle of wine from Trader Joe's (we stay classy)!
+</itunes:summary>
+<itunes:keywords>
+Danny,Existential,Comedy,Diary,Journal,Mental Health,
+</itunes:keywords>
+<description>
+Ever have an existential crisis? Well, I have them continuously! But, hey, they do have perks. Coming out of each unnecessarily existential panic attack, I bring back some understanding I never knew I needed. And you, my friend, are lucky enough to sit in on them with me. Admittedly, I also get to sit in with you to hear what comes out of my mouth, because half the time it's coming from my ass and my ears aren't positioned well to listen. So you bring the popcorn, and I'll grab a $2 bottle of wine from Trader Joe's (we stay classy)!
+</description>
+<itunes:owner>
+<itunes:name>Danny O'Keefe</itunes:name>
+<itunes:email>daniel.okeefe3166@icloud.com</itunes:email>
+</itunes:owner>
+<itunes:image href=<a data-flickr-embed="true" href="https://www.flickr.com/photos/189569625@N04/50182455206/in/dateposted-public/" title="apple specs #2"><img src="https://live.staticflickr.com/65535/50182455206_e70d1efe1d_o.jpg" width="1800" height="1800" alt="apple specs #2"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>/>
+<itunes:category text=Comedy></itunes:category>
+<itunes:category text=Personal Journals></itunes:category>
+<itunes:category text=Philosophy></itunes:category>
+
+<item>
+<title>EPISODE TITLE</title>
+<itunes:title>EPISODE TITLE</itunes:title>
+<itunes:author>PODCAST CREATOR</itunes:author>
+<itunes:subtitle>
+EPISODE SUBTITLE
+</itunes:subtitle>
+<itunes:summary>
+<![CDATA[
+EPISODE DESCRIPTION
+]]>
+</itunes:summary>
+<description>
+<![CDATA[
+EPISODE DESCRIPTION
+]]>
+</description>
+<itunes:image href="https://OPTIONAL EPISODE IMAGE.jpg"/>
+<enclosure url="https://LOCATION OF MP3.MP3" length="LENGTH" type="audio/mpeg"/>
+<itunes:duration>DURATION</itunes:duration>
+<itunes:season>SEASON #</itunes:season>
+<itunes:episode>EPISODE #</itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<guid isPermaLink="false">
+https://LOCATION OF MP3.MP3
+</guid>
+<pubDate>EPISODE PUBLISH DATE</pubDate>
+<itunes:explicit>YES/NO</itunes:explicit>
+</item>
+
+... REPEAT <item> for each episode ...
+
+</channel>
+</rss>
